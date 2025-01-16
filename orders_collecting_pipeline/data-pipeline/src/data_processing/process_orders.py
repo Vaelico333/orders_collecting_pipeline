@@ -36,7 +36,6 @@ def process_order(customer_name, clothing_model, color, size, number):
 
         try:
             # Load the existing workbook
-             # Load the existing workbook
             book = load_workbook(excel_file_path)
             if current_date not in book.sheetnames:
                 book.create_sheet(current_date)
